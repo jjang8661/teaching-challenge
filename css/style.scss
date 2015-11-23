@@ -1,0 +1,32 @@
+$textColor: #1abc9c; // #1abc9c
+$margin: 5%;
+$fade: #444444;
+$fade2: $fade - 100;
+$padding: 5%;
+
+body {
+    background-color: $fade;
+}
+
+header {
+    margin: 20px 0 0 $margin;
+}
+
+h1 {
+    color: $textColor;
+}
+
+h2 {
+    color: $textColor;
+    margin: 10px $margin + 5%; 
+}
+
+p {
+    color: $textColor;
+}
+
+.main {
+    padding: $padding;
+    background-image: -webkit-gradient(linear, left top, left bottom, from($fade), to($fade2));
+    background-image: -webkit-linear-gradient(top, $fade, $fade2);
+}
