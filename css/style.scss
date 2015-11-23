@@ -1,32 +1,31 @@
-$textColor: #1abc9c; // #1abc9c
-$margin: 5%;
-$fade: #444444;
-$fade2: $fade - 100;
-$padding: 5%;
+//$textColor: #2980b9; // #1abc9c
+//$margin: 5%;
+//$fade: #444444;
+//$fade2: $fade - 100;
+
 
 body {
-    background-color: $fade;
+    background-color: #444444;
 }
 
 header {
-    margin: 20px 0 0 $margin;
+    margin: 20px 0 0 5%;
 }
 
 h1 {
-    color: $textColor;
+    color: white;
 }
 
 h2 {
-    color: $textColor;
-    margin: 10px $margin + 5%; 
+    color: white;
+    margin: 10px 10%; 
 }
 
 p {
-    color: $textColor;
+    color: white;
 }
 
 .main {
-    padding: $padding;
-    background-image: -webkit-gradient(linear, left top, left bottom, from($fade), to($fade2));
-    background-image: -webkit-linear-gradient(top, $fade, $fade2);
+//    background-image: -webkit-gradient(linear, left top, left bottom, from(#444444), to());
+//    background-image: -webkit-linear-gradient(top, #444444, );
 }
